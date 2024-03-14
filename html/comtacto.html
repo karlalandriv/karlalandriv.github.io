@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+main section form  {
+    width: 50%;
+    padding: 70px;
+    margin: 0 auto;
+    background-color: #9BC1BC;
+}
+body main section {
+}
+#form1 label {
+    font-weight: bold;
+}
+#form1 #f1_nombre , #form1 #email{
+    width: 100%;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 10px;
+    height: auto;
+}
+#form1 #enviar {
+    background-color: #ED6A6F;
+    padding: 5px;
+    margin: 0 auto;
+    color: #F4F1BB;
+    display: block;
+}
+#form1 #email {
+}
+</style>
+</head>
+
+<body>
+	
+<header>
+  <h1>Contacto</h1>
+</header>
+<nav>
+  <ul>
+		<li><a href="../index.html">Inicio</a> </li>
+		<li><a href="Galería.html">Galería</a></li>
+		<li><a href="prácticas.html">Prácticas</a></li>
+		<li style="height: 100px"><a href="comtacto.html">Contacto</a></li>
+</ul></nav>
+<main>
+	<section>
+	<form id="form1" name="form1" method="post">
+		  <label for="f1_nombre">Nombre</label>
+		<input name="f1_nombre" type="text" autofocus="autofocus" required="required" id="f1_nombre" tabindex="1" autocomplete="on" maxlength="100">
+		<label for="email">Email:</label>
+        <input name="email" type="email" autofocus="autofocus" id="email" tabindex="3" autocomplete="on">
+        <input name="enviar" type="submit" autofocus="autofocus" id="enviar" formaction="../index.html" formmethod="GET" tabindex="2" value="Enviar">
+	  </form>
+	</section>
+</main>
+<footer>Elaborado por Karla Landa Rivera.</footer>
+</body>
+</html>
