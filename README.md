@@ -1,1 +1,0 @@
-# karlalandriv.github.io
